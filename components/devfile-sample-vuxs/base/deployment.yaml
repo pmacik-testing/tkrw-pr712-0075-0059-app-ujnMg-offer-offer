@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vuxs
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0059-tenant/tkrw-pr712-0075-0059-app/devfile-sample-vuxs@sha256:83233f9d0ca98bf5f2048b4cfff111e3c69c90b093d5cbd6319c85d387df8bf2
         name: my-nodejs
         ports:
         - containerPort: 3001
